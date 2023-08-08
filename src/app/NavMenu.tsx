@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../assets/logo.png";
+import { SignInOutButton } from "./components/Buttons";
 
 export default function NavMenu() {
     return (
@@ -14,6 +15,7 @@ export default function NavMenu() {
                     <li className="hover:bg-black/80 hover:text-white p-4"><Link href="/profile">Profile</Link></li>
                     <li className="hover:bg-black/80 hover:text-white p-4"><Link href="/blog">Blog</Link></li>
                     <li className="hover:bg-black/80 hover:text-white p-4"><Link href="/users">Users</Link></li>
+                    <li className="p-4"><SignInOutButton/></li>
                 </ul>
             </nav>
 
