@@ -1,6 +1,6 @@
 #### on fireship Next JS fullstack cource Prisma Setup
 
-```
+```bash
 [next-auth][error][JWT_SESSION_ERROR] 
 https://next-auth.js.org/errors#jwt_session_error Invalid Compact JWE {
   message: 'Invalid Compact JWE',
