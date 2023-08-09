@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <Authprovider>
     <html lang="en">
-      <body className={inter.className}>
+      <body className={ ` ${inter.className} mx-32`}>
         <NavMenu />
         {children}
       </body>
